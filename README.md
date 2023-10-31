@@ -15,6 +15,6 @@ InputPath:File path for input data
 OutputPath:Path for result output  
 delimeter:delimeter  
 k:Number of spatiotemporal blocks I hope to find  
-h:How many intervals are the spatiotemporal range divided into.
+h:How many intervals are the spatiotemporal range divided into.  
 pro1,pro2,pro3:The proportion of density, time, and space in score function f.  
 We have provided a test data in data folder. you can run the test data by entering the parameters "./data/test.txt ./output/test 10 100 1 1 1" in main function.  
