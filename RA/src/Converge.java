@@ -1345,7 +1345,7 @@ public class Converge {
         sb1.append("Tensor " + i + ":\n");
         sb1.append("Mass: "+ subTensor.getMass() +"\n");
         sb1.append("Valume: "+ Util.computeVolume(subTensor) +"\n");
-        sb1.append("Mass: "+ Util.computeDensity(subTensor.getMass(), Util.computeVolume(subTensor)) +"\n");
+        sb1.append("Density: "+ Util.computeDensity(subTensor.getMass(), Util.computeVolume(subTensor)) +"\n");
         sb1.append("The size of the " + i + "th sub-tensor is ");
         for (int j = 0; j < CORE_COLUMN_LENGTH; j++) {
             sb1.append(size[j] + " x ");
